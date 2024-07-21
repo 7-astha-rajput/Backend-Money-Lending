@@ -73,18 +73,18 @@ This backend application for a money lending system is built with Node.js, Expre
 2. **Profile Routes**
 
    - GET http://localhost:6000/v1/api/user
-   Get User Details
+    Get User Details
    ![user](./Public/user.jpg)
 
 
    - PUT http://localhost:6000/v1/api/user/update
-    Update User  Details
+     Update User  Details
    ![userupdate](./Public/userupdate.jpg)
 
 3. **Borrowing Routes**
 
    - POST http://localhost:6000/v1/api/user/borrow-money
-   Borrow Money
+    Borrow Money
    ![borrowmoney](./Public/borrowmoey.jpg)
 
 ## Copyright
