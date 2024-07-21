@@ -55,17 +55,37 @@ This backend application for a money lending system is built with Node.js, Expre
 ## API Endpoints
 1. **Authentication Routes**
 
-   - POST http://localhost:6000/v1/api/auth/signup
-   - POST http://localhost:6000/v1/api/auth/login
-   - POST http://localhost:6000/v1/api/auth/new-access-token
+   - POST http://localhost:6000/v1/api/auth/signup  
+     Sign Up
+     ![signup](./Public/signup.jpg)  
+     Sign Up Age Validation  
+     ![signupagevalidation](./Public/signupagevalidation.jpg)  
+     Sign Up Salary Validation  
+     ![signupsalaryvalidation](./Public/signupsalaryvalidation.jpg)
+
+   - POST http://localhost:6000/v1/api/auth/login  
+     Log In
+     ![login](./Public/login.jpg)
+
+   - POST http://localhost:6000/v1/api/auth/new-access-token  
+    New Access Token through refresh token 
+     ![newaccesstoken](./Public/generatenewaccesstoken.jpg)
 2. **Profile Routes**
 
    - GET http://localhost:6000/v1/api/user
+   Get User Details
+   ![user](./Public/user.jpg)
+
+
    - PUT http://localhost:6000/v1/api/user/update
+    Update User  Details
+   ![userupdate](./Public/userupdate.jpg)
 
 3. **Borrowing Routes**
 
    - POST http://localhost:6000/v1/api/user/borrow-money
+   Borrow Money
+   ![borrowmoney](./Public/borrowmoey.jpg)
 
 ## Copyright
 Copyright (c) 2024 by Astha Rajput
